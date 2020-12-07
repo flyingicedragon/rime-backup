@@ -1,0 +1,15 @@
+var:
+  last_build_time: 1607345177
+  option:
+    simplification: true
+  previously_selected_schema: double_pinyin_mspy
+  schema_access_time:
+    aurora_pinyin: 1597386162
+    double_pinyin: 1597381107
+    double_pinyin_mspy: 1603769515
+    emoji: 1596530568
+    english: 1596547529
+    luna_pinyin: 1603767849
+    luna_pinyin_simp: 1597381086
+    meow_emoji: 1603769499
+    terra_pinyin: 1597382934
