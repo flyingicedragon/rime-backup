@@ -1,0 +1,40 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 个人常用特殊符号和词组
+
+
+---
+name: persional
+version: "1.0"
+sort: by_weight
+...
+
+czq@genetics.ac.cn	mail	10
+czqczqczqczqczqczq@163.com	mail	15
+1229760716@qq.com	mail	10
+czqczqczqczq@outlook.com	mail	10
+常泽乾	chang ze qian	1
+泽乾	ze qian	1
+Ⅰ	yi	1
+Ⅱ	er	1
+Ⅲ	san	1
+Ⅳ	si	1
+Ⅴ	wu	1
+Ⅵ	liu	1
+Ⅶ	qi	1
+Ⅷ	ba	1
+Ⅸ	jiu	1
+Ⅹ	shi	1
+①	yi	1
+②	er	1
+③	san	1
+④	si	1
+⑤	wu	1
+⑥	liu	1
+⑦	qi	1
+⑧	ba	1
+⑨	jiu	1
+⑩	shi	1
+℃	she shi du	1
+μ	miu	1

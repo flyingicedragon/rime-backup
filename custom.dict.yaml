@@ -1,16 +1,11 @@
 # custom.dict.yaml
 ---
 name: custom
-version: "2020.8.14"
+version: "2021.10.29"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - aurora_pinyin
   - meow_emoji
+  - personal
 ...
-czq@genetics.ac.cn	mail	1
-czqczqczqczqczqczq@163.com	mail	2
-1229760716@qq.com	mail	3
-czqczqczqczq@outlook.com	mail	4
-常泽乾	chang ze qian	1
-泽乾	ze qian	1
