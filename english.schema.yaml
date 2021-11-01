@@ -27,6 +27,7 @@ translator:
   enable_sentence: false
   enable_user_dict: false
   dictionary: english
+  spelling_hints: 9
 
 speller:
   alphabet:     # 使該方案支持大寫拉丁字母輸入
