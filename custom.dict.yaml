@@ -3,7 +3,6 @@
 name: custom
 version: "2021.10.29"
 sort: by_weight
-use_preset_vocabulary: true
 import_tables:
   - aurora_pinyin
   - meow_emoji
