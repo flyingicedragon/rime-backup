@@ -2,3 +2,4 @@
 https://github.com/yanyingwang/rime_custom.git
 https://github.com/hosxy/rime-aurora-pinyin.git
 https://github.com/rime/rime-combo-pinyin.git
+https://github.com/mutoe/rime.git
