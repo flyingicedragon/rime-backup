@@ -1,0 +1,26 @@
+patch:
+  # 简繁转换关闭
+  "switches/@2/reset": 0
+
+  # 扩充词库
+  translator/dictionary: custom
+
+  # 扩充符号库
+  punctuator/import_preset: symbols
+  recognizer/patterns/punct: "^/([A-Z|a-z]*|[0-9]|10)$"
+
+  # 自动造句 (阴阳鱼☯️️ 图标)
+  zrm2000/enable_sentence: true
+
+  # 笔画反查
+  recognizer/patterns/reverse_lookup: "`b[a-z]*'?$"
+  reverse_lookup:
+    dictionary: stroke
+    enable_completion: true
+    prefix: "`b"
+    suffix: "'"
+    tips: 〔笔划反查〕
+    preedit_format:
+      - xlit/hspnz/一丨丿丶乙/
+    comment_format:
+      - xform/([nl])v/$1ü/
