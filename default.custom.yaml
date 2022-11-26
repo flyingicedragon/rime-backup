@@ -13,6 +13,7 @@ patch:
     Shift_R: commit_text
 
   schema_list:
+    - schema: combo_pinyin_9
     - schema: luna_pinyin           # 朙月拼音
     #- schema: luna_pinyin_simp      # 朙月拼音 简化字模式
     - schema: double_pinyin_plus    # 自然码双拼附加辅码
