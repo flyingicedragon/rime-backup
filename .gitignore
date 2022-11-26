@@ -2,3 +2,5 @@ build
 sync
 *.userdb
 trash
+installation.yaml
+user.yaml
