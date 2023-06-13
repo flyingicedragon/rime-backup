@@ -19,7 +19,7 @@ patch:
   translator/dictionary: custom
 
   emoji_suggestion:
-    opencc_config: emoji.json
+    opencc_config: es.json
     option_name: emoji_suggestion
     tips: all
 
