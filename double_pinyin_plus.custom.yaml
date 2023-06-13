@@ -1,19 +1,16 @@
 patch:
-  # switches:
-  #   - name: ascii_mode
-  #     reset: 0
-  #     states: [ 中文, 西文 ]
-  #   - name: full_shape
-  #     states: [ 半角, 全角 ]
-  #   - name: ascii_punct
-  #     states: [ 。，, ．， ]
-  #   - name: emoji_suggestion
-  #     reset: 1
-  #     states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
 
-  # engine/filters:
-  #   - simplifier@emoji_suggestion
-  #   - uniquifier
+  engine/filters:
+    # - simplifier@emoji_suggestion
+    - uniquifier
 
   # 扩充词库
   translator/dictionary: custom
