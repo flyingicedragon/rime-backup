@@ -5,16 +5,16 @@ patch:
     width: 10
     ascii_mode: 0
     keys:
-      - {click: q, swipe_up: 1, swipe_left: Left, swipe_right: Right, label_symbol: 1, key_back_color: bh1, key_text_color: th1}
-      - {click: w, swipe_up: 2, swipe_left: Left, swipe_right: Right, label_symbol: 2, key_back_color: bh1, key_text_color: th1}
-      - {click: e, swipe_up: 3, swipe_left: Left, swipe_right: Right, label_symbol: 3, key_back_color: bh1, key_text_color: th1}
-      - {click: r, swipe_up: 4, swipe_left: Left, swipe_right: Right, label_symbol: 4, key_back_color: bh1, key_text_color: th1}
-      - {click: t, swipe_up: 5, swipe_left: Left, swipe_right: Right, label_symbol: 5, key_back_color: bh1, key_text_color: th1}
-      - {click: y, swipe_up: 6, swipe_left: Left, swipe_right: Right, label_symbol: 6, key_back_color: bh1, key_text_color: th1}
-      - {click: u, swipe_up: 7, swipe_left: Left, swipe_right: Right, label_symbol: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: i, swipe_up: 8, swipe_left: Left, swipe_right: Right, label_symbol: 8, key_back_color: bh1, key_text_color: th1}
-      - {click: o, swipe_up: 9, swipe_left: Left, swipe_right: Right, label_symbol: 9, key_back_color: bh1, key_text_color: th1}
-      - {click: p, swipe_up: 0, swipe_left: Left, swipe_right: Right, label_symbol: 0, key_back_color: bh1, key_text_color: th1}
+      - {click: q, swipe_up: 1, swipe_down: undo, swipe_left: Left, swipe_right: Right, label_symbol: 1, hint: '↶', key_back_color: bh1, key_text_color: th1}
+      - {click: w, swipe_up: 2, swipe_down: redo, swipe_left: Left, swipe_right: Right, label_symbol: 2, hint: '↷' key_back_color: bh1, key_text_color: th1}
+      - {click: e, swipe_up: 3, swipe_down: Up, swipe_left: Left, swipe_right: Right, label_symbol: 3, hint: '↑', key_back_color: bh1, key_text_color: th1}
+      - {click: r, swipe_up: 4, swipe_down: Down, swipe_left: Left, swipe_right: Right, label_symbol: 4, hint: '↓', key_back_color: bh1, key_text_color: th1}
+      - {click: t, swipe_up: 5, swipe_down: Date, swipe_left: Left, swipe_right: Right, label_symbol: 5, hint: '📅', key_back_color: bh1, key_text_color: th1}
+      - {click: y, swipe_up: 6, swipe_down: Time, swipe_left: Left, swipe_right: Right, label_symbol: 6, hint: '⏰', key_back_color: bh1, key_text_color: th1}
+      - {click: u, swipe_up: 7, swipe_down: DeleteCandidate, swipe_left: Left, swipe_right: Right, label_symbol: 7, hint: '🗑️', key_back_color: bh1, key_text_color: th1}
+      - {click: i, swipe_up: 8, swipe_down: Page_Up, swipe_left: Left, swipe_right: Right, label_symbol: 8, hint: '↥', key_back_color: bh1, key_text_color: th1}
+      - {click: o, swipe_up: 9, swipe_down: Page_Down, swipe_left: Left, swipe_right: Right, label_symbol: 9, hint: '↧', key_back_color: bh1, key_text_color: th1}
+      - {click: p, swipe_up: 0, swipe_down: Hide, swipe_left: Left, swipe_right: Right, label_symbol: 0, hint: '⚺' key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
       - {click: a, swipe_up: '!', swipe_down: '~', swipe_left: Left, swipe_right: Right, label_symbol: '!', hint: '~', key_back_color: bh1, key_text_color: th1}
@@ -29,14 +29,14 @@ patch:
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
       - {click: Shift_L, composing: delemiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, swipe_up: '`', swipe_down: select_all, swipe_left: Home, swipe_right: End, label_symbol: '`', hint: 全选, key_back_color: bh1, key_text_color: th1}
-      - {click: x, swipe_up: '😂️', swipe_down: cut, swipe_left: Home, swipe_right: End, label_symbol: '😂️', hint: 剪切, key_back_color: bh1, key_text_color: th1}
-      - {click: c, swipe_up: '《', swipe_down: copy, swipe_left: Home, swipe_right: End, label_symbol: '《', hint: 复制, key_back_color: bh1, key_text_color: th1}
-      - {click: v, swipe_up: '》', swipe_down: paste, long_click: paste_clip, swipe_left: Home, swipe_right: End, label_symbol: '》', hint: 粘贴, key_back_color: bh1, key_text_color: th1}
+      - {click: z, swipe_up: '`', swipe_down: select_all, swipe_left: Home, swipe_right: End, label_symbol: '`', hint: '☑', key_back_color: bh1, key_text_color: th1}
+      - {click: x, swipe_up: '😂️', swipe_down: cut, swipe_left: Home, swipe_right: End, label_symbol: '😂️', hint: '✂️', key_back_color: bh1, key_text_color: th1}
+      - {click: c, swipe_up: '《', swipe_down: copy, swipe_left: Home, swipe_right: End, label_symbol: '《', hint: '📄️', key_back_color: bh1, key_text_color: th1}
+      - {click: v, swipe_up: '》', swipe_down: paste, long_click: paste_clip, swipe_left: Home, swipe_right: End, label_symbol: '》', hint: '📋️', key_back_color: bh1, key_text_color: th1}
       - {click: b, swipe_up: '?', swipe_down: '/', swipe_left: Home, swipe_right: End, label_symbol: '?', hint: '/', key_back_color: bh1, key_text_color: th1}
       - {click: n, swipe_up: ':', swipe_down: ';', swipe_left: Home, swipe_right: End, label_symbol: ':', hint: ';', key_back_color: bh1, key_text_color: th1}
       - {click: m, swipe_up: '“”{Left}', swipe_down: '‘’{Left}', swipe_left: Home, swipe_right: End, label_symbol: '“”', hint: '‘’', key_back_color: bh1, key_text_color: th1}
-      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+      - {click: BackSpace, long_click: Clear, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_bqrw, long_click: Theme_settings, swipe_down: Color_switch, swipe_up: Color_switch, width: 12.5, key_text_size: '18', key_back_color: bgn, key_text_color: tgn}
