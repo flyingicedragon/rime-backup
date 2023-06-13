@@ -9,11 +9,15 @@ patch:
       states: [ 。，, ．， ]
 
   engine/filters:
-    # - simplifier@emoji_suggestion
+    - simplifier@emoji_suggestion
     - uniquifier
 
   # 扩充词库
   translator/dictionary: custom
+
+  emoji_suggestion:
+    opencc_config: emoji.json
+    tips: all
 
   # 扩充符号库
   punctuator/import_preset: symbols
