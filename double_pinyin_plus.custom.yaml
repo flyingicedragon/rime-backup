@@ -7,6 +7,9 @@ patch:
       states: [ 半角, 全角 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+    - name: emoji_suggestion
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
   engine/filters:
     - simplifier@emoji_suggestion
@@ -17,6 +20,7 @@ patch:
 
   emoji_suggestion:
     opencc_config: emoji.json
+    option_name: emoji_suggestion
     tips: all
 
   # 扩充符号库
