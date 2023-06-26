@@ -36,7 +36,7 @@ patch:
       - {click: b, swipe_up: '?', swipe_down: '/', swipe_left: Home, swipe_right: End, label_symbol: '?', hint: '/', key_back_color: bh1, key_text_color: th1}
       - {click: n, swipe_up: ':', swipe_down: ';', swipe_left: Home, swipe_right: End, label_symbol: ':', hint: ';', key_back_color: bh1, key_text_color: th1}
       - {click: m, swipe_up: '“”{Left}', swipe_down: '‘’{Left}', swipe_left: Home, swipe_right: End, label_symbol: '“”', hint: '‘’', key_back_color: bh1, key_text_color: th1}
-      - {click: BackSpace, long_click: Clear, width: 15, key_back_color: bbs, key_text_color: tbs}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_bqrw, long_click: Theme_settings, swipe_down: Color_switch, swipe_up: Color_switch, width: 12.5, key_text_size: '18', key_back_color: bgn, key_text_color: tgn}
