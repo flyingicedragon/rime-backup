@@ -1,4 +1,8 @@
 patch:
+  liquid_keyboard/keyboards: [emoji, math, ascii, cn, history, clipboard, draft, list, tabs, exit, candidate, jp, table, symbol, pinyin, grease, rusa, korea, lation, yinbiao, unit,  exit]  #tab列表
+  liquid_keyboard/candidate:
+    name: 候选
+    type: CANDIDATE
   preset_keyboards/default:
     author: 'flyingicedragon'
     name: 26键默认布局
@@ -13,7 +17,7 @@ patch:
       - {click: y, swipe_up: 6, swipe_down: Time, swipe_left: Left, swipe_right: Right, label_symbol: 6, hint: '⏰', key_back_color: bh1, key_text_color: th1}
       - {click: u, swipe_up: 7, swipe_down: DeleteCandidate, swipe_left: Left, swipe_right: Right, label_symbol: 7, hint: '🗑️', key_back_color: bh1, key_text_color: th1}
       - {click: i, swipe_up: 8, swipe_down: Page_Up, swipe_left: Left, swipe_right: Right, label_symbol: 8, hint: '↥', key_back_color: bh1, key_text_color: th1}
-      - {click: o, swipe_up: 9, swipe_down: Page_Down, swipe_left: Left, swipe_right: Right, label_symbol: 9, hint: '↧', key_back_color: bh1, key_text_color: th1}
+      - {click: o, swipe_up: 9, swipe_down: liquid_keyboard_candidate, swipe_left: Left, swipe_right: Right, label_symbol: 9, hint: '↧', key_back_color: bh1, key_text_color: th1}
       - {click: p, swipe_up: 0, swipe_down: Hide, swipe_left: Left, swipe_right: Right, label_symbol: 0, hint: '⚺', key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
@@ -28,7 +32,7 @@ patch:
       - {click: l, swipe_up: '(){Left}', swipe_down: '【】{Left}', swipe_left: Left, swipe_right: Right, label_symbol: '()', hint: '【】', key_back_color: bh1, key_text_color: th1}
       - {width: 5, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: delemiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
       - {click: z, swipe_up: '`', swipe_down: select_all, swipe_left: Home, swipe_right: End, label_symbol: '`', hint: '☑', key_back_color: bh1, key_text_color: th1}
       - {click: x, swipe_up: '😂️', swipe_down: cut, swipe_left: Home, swipe_right: End, label_symbol: '😂️', hint: '✂️', key_back_color: bh1, key_text_color: th1}
       - {click: c, swipe_up: '《', swipe_down: copy, swipe_left: Home, swipe_right: End, label_symbol: '《', hint: '📄️', key_back_color: bh1, key_text_color: th1}
@@ -45,3 +49,4 @@ patch:
       - {click: '.', label: '。', long_click: liquid_keyboard_clipboard, swipe_left: '!', swipe_right: '?', key_back_color: bh4, key_text_color: th4}
       - {click: '/', long_click: liquid_keyboard_switch , key_text_size: '18', key_back_color: bh4, key_text_color: th4}
       - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_back_color: benter, key_text_color: tenter}
+  preset_keys/liquid_keyboard_candidate: { label: 候选字, send: function, command: liquid_keyboard, option: "候选" }

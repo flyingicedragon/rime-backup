@@ -5,7 +5,7 @@
 #   %APPDATA%\Rime       (windows)
 
 patch:
-  "menu/page_size": 9
+  "menu/page_size": 100
 
   schema_list:
     - schema: double_pinyin_plus
