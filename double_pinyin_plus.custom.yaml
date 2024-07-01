@@ -1,6 +1,7 @@
 patch:
   # 简繁转换关闭
   "switches/@2/reset": 0
+  "switches/@4/reset": 0
 
   # 扩充词库
   translator/dictionary: custom
