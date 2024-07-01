@@ -8,5 +8,4 @@ patch:
   "menu/page_size": 100
 
   schema_list:
-    - schema: double_pinyin_plus
-    - schema: zrm2000
+    - {schema: double_pinyin_plus}
