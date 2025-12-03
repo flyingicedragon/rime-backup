@@ -24,3 +24,9 @@ patch:
       - xlit/hspnz/一丨丿丶乙/
     comment_format:
       - xform/([nl])v/$1ü/
+
+  # emoji
+  emoji_suggestion:
+    opencc_config: es.json
+    option_name: emoji_suggestion
+    tips: all
